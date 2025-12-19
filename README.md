@@ -33,7 +33,7 @@ Os comandos abaixo realizam a configuração completa do ambiente:
 
 ### Criação e Inserção (Exemplo: Produtos)
 ```sql
--- Criando a tabela
+
 CREATE TABLE Produtos (
     ProdutoID INT PRIMARY KEY,
     NomeProduto VARCHAR(100) NOT NULL,
@@ -41,7 +41,6 @@ CREATE TABLE Produtos (
     Preco DECIMAL(10, 2)
 );
 
--- Inserindo dados de teste
 INSERT INTO Produtos (ProdutoID, NomeProduto, Quantidade, Preco) VALUES
 (1, 'Notebook Gamer', 10, 4500.00),
 (2, 'Mouse Sem Fio', 50, 120.50),
